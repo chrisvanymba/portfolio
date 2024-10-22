@@ -16,11 +16,7 @@
     <!-- Mobile Specific Metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-<<<<<<< HEAD
     <meta name="apple-mobile-web-app-capable" content="yes" />
-=======
-    <meta name="mobile-web-app-capable" content="yes" />
->>>>>>> origin/main
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -44,43 +40,36 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-<<<<<<< HEAD
-</head>
-=======
-    <!-- EmailJS SDK -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+ <!-- EmailJS SDK -->
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
     
-    <!-- Lien vers le fichier JavaScript externe -->
-    <script type="text/javascript" src="script.js" defer></script>
+ <!-- Lien vers le fichier JavaScript externe -->
+ <script type="text/javascript" src="script.js" defer></script>
 
-    <!-- Initialisation EmailJS et gestion du formulaire -->
-    <script type="text/javascript" defer>
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init("M3jD16scCdKfKyR9D");
+ <!-- Initialisation EmailJS et gestion du formulaire -->
+ <script type="text/javascript" defer>
+     (function() {
+         // https://dashboard.emailjs.com/admin/account
+         emailjs.init("M3jD16scCdKfKyR9D");
 
-            // Gestion de l'envoi du formulaire
-            document.addEventListener('DOMContentLoaded', function() {
-                const form = document.getElementById('contact-form');
-                if (form) {
-                    form.addEventListener('submit', function(event) {
-                        event.preventDefault();
-                        emailjs.sendForm('service_63nqkaf', 'template_0rz54ie', this)
-                            .then(() => {
-                                console.log('SUCCESS!');
-                            }, (error) => {
-                                console.log('FAILED...', error);
-                            });
-                    });
-                }
-            });
-        })();
-    </script>
-
+         // Gestion de l'envoi du formulaire
+         document.addEventListener('DOMContentLoaded', function() {
+             const form = document.getElementById('contact-form');
+             if (form) {
+                 form.addEventListener('submit', function(event) {
+                     event.preventDefault();
+                     emailjs.sendForm('service_63nqkaf', 'template_0rz54ie', this)
+                         .then(() => {
+                             console.log('SUCCESS!');
+                         }, (error) => {
+                             console.log('FAILED...', error);
+                         });
+                 });
+             }
+         });
+     })();
+ </script>
 </head>
-
->>>>>>> origin/main
 <body>
 
     <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
@@ -94,11 +83,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     
-<<<<<<< HEAD
                     <!-- <a href="#hero" class="site-logo"><img src="assets/img/logo.png" alt="logo"></a> -->
-=======
-                    <a href="#hero" class="site-logo"><img src="assets/img/logo.png" alt="logo"></a>
->>>>>>> origin/main
 
                 </div><!-- /.navbar-header -->
 
@@ -127,13 +112,8 @@
                 <div class="col-md-6">
                     <h1>Chrisvany MBA</h1>
                     <div class="page-scroll">
-<<<<<<< HEAD
                         <p class="job-title"></p>
                         <p class="job-title"> Product Manager-Technicienne WordPress- CMS </p>  
-=======
-                        <p class="job-title"> Product Manager-Technicienne WordPress- CMS </p>
-                            
->>>>>>> origin/main
                         <a href="#contact" class="btn btn-fill ">Me contacter</a>
                         <div class="clearfix visible-xxs"></div>
                         <a href="#portfolio" class="btn btn-border">Mon Portfolio</a>
@@ -141,11 +121,7 @@
                 </div>
             
                 <div class="col-md-6 text-right">
-<<<<<<< HEAD
                     <img src="assets/img/bb.png" alt="bb">
-=======
-                    <img src="assets/img/alex-vidal.png" alt="alex-vidal">
->>>>>>> origin/main
                 </div>
 
             </div>
@@ -160,25 +136,13 @@
                     <div class="col-md-6 col-md-offset-3">
                         <h2>Qui est Chrivany MBA?</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-<<<<<<< HEAD
                         <p>Bonjour, je suis Chrisvany MBA, jeune femme gabonaise de 28 ans, actuellement étudiante à École 241. Passionnée par l'univers du numérique, elle s'épanouit dans le domaine du digital. Au cours de sa formation, Chrisvany a développé des compétences solides en tant que product manager et technicienne WordPress/CMS, lui permettant de contribuer efficacement à des projets innovants et créatifs.</p>
                         <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvmba.pdf" class="btn btn-fill" target="_blank" download>Voir Mon CV</a>
                     </div>
                 </div>
             </div>
         </section>
-<<<<<<< Updated upstream
-=======
-                        <p>Salut la Team, je suis Chrisvany MBA, jeune femme gabonaise de 28 ans, actuellement étudiante à École 241. Passionnée par l'univers du numérique, elle s'épanouit dans le domaine du digital. Au cours de sa formation, Chrisvany a développé des compétences solides en tant que product manager et technicienne WordPress/CMS, lui permettant de contribuer efficacement à des projets innovants et créatifs.</p>
-                        <a href="../html-freebie-portfolio-perfect-master/assets/img/cvbrelia.pdf" class="btn btn-fill" target="_blank" download>Voir Mon CV</a>
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.secton-about -->
->>>>>>> origin/main
-=======
         <!-- bonjour -->
->>>>>>> Stashed changes
 
         <section class="site-section section-skills">
             <div class="container">
@@ -209,11 +173,7 @@
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                         <div class="skill">
-<<<<<<< HEAD
                             <h4>Gowth Hacking</h4>
-=======
-                            <h4>Grotw Hacking</h4>
->>>>>>> origin/main
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="66"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
@@ -249,33 +209,21 @@
                         <div class="service">
                             <img src="assets/img/front-end.svg" alt="Front End Developer">
                             <h4>Social Media Manager</h4>
-<<<<<<< HEAD
                             <p> J'élabore des  stratégies de Communication et je suis en charge de  la gestion des réseaux sociaux d'une marque. Je crée du contenu engageant, interagis avec la communauté et analyse les performances pour optimiser l'impact. </p>
-=======
-                            <p> Je suis responsable de la stratégie et de la gestion des réseaux sociaux d'une marque. Je crée du contenu engageant, interagis avec la communauté et analyse les performances pour optimiser l'impact. Mon objectif est d'accroître la visibilité et de renforcer les relations avec les clients.</p>
->>>>>>> origin/main
                         </div><!-- /.service -->
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="assets/img/back-end.svg" alt="Back End Developer">
                             <h4>Technicienne WordPress</h4>
-<<<<<<< HEAD
                             <p> Je développe et maintiens des sites web avec WordPress. Je maîtrise l’installation de thèmes, la personnalisation de plugins et l’optimisation des performances. </p>
-=======
-                            <p> Je conçois, développe et maintiens des sites web sur cette plateforme. Je maîtrise l’installation de thèmes, la personnalisation de plugins et l’optimisation des performances. Mon objectif est de créer des expériences utilisateur fluides et attrayantes, tout en garantissant la sécurité et la fonctionnalité des sites.</p>
->>>>>>> origin/main
                         </div><!-- /.service -->
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="assets/img/consultancy.svg" alt="Coding">
                             <h4>Product Manager</h4>
-<<<<<<< HEAD
                             <p> La création de produits qui répondent aux besoins des utilisateurs est un défis pour moi. J'analyse les marchés, définis des stratégies et collabore avec des équipes multidisciplinaires pour développer des solutions innovantes. Mon objectif est d’allier vision et exécution pour maximiser la valeur client.</p>
-=======
-                            <p> je suis passionné par la création de produits qui répondent aux besoins des utilisateurs. J'analyse les marchés, définis des stratégies et collabore avec des équipes multidisciplinaires pour développer des solutions innovantes. Mon objectif est d’allier vision et exécution pour maximiser la valeur client.</p>
->>>>>>> origin/main
                         </div><!-- /.service -->
                     </div>
                 </div>
@@ -291,101 +239,57 @@
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-<<<<<<< HEAD
                             <img src="assets/img/communities.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Ecole 241 Communities</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://www.facebook.com/ecole241communities"><span class="glyphicon glyphicon-link"></span></a>
-=======
-                            <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Ecole 241 Communities</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
->>>>>>> origin/main
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-<<<<<<< HEAD
                             <img src="assets/img/festival.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Festival Internationnal</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://www.facebook.com/profile.php?id=61558964356265"><span class="glyphicon glyphicon-link"></span></a>
-=======
-                            <img src="assets/img/portfolio-2.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Festival Internationnal</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
->>>>>>> origin/main
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-<<<<<<< HEAD
                             <img src="assets/img/itinerairegabon.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Itinéraire Gabon</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://itinerairegabon.com/"><span class="glyphicon glyphicon-link"></span></a>
-=======
-                            <img src="assets/img/portfolio-3.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Itinéraire Gabon</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
->>>>>>> origin/main
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-<<<<<<< HEAD
                             <img src="assets/img/pixafrik.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Pixafrik</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="http://pixafrik.rf.gd/pixafrik"><span class="glyphicon glyphicon-link"></span></a>
-=======
-                            <img src="assets/img/portfolio-4.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Pixafrik</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
->>>>>>> origin/main
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-<<<<<<< HEAD
                             <img src="assets/img/ongcna.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Communication: <br> ONG CNA</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://www.facebook.com/ongcna18"><span class="glyphicon glyphicon-link"></span></a>
-=======
-                            <img src="assets/img/portfolio-5.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Communication: <br> ONG CNA</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
->>>>>>> origin/main
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-<<<<<<< HEAD
                             <!-- <img src="assets/img/portfolio-6.jpg" class="img-res" alt=""> -->
-=======
-                            <img src="assets/img/portfolio-6.jpg" class="img-res" alt="">
->>>>>>> origin/main
                             <div class="portfolio-item-info">
                                 <!-- <h4>Project Title</h4> -->
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
@@ -417,30 +321,12 @@
             </div>
         </section><!-- /.section-counters -->
 
+        
         <section id="contact" class="site-section section-form text-center">
             <div class="container">
 
                 <h3>Contact</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-<<<<<<< HEAD
-                <form>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
-                        </div>
-                        <div class="col-sm-12">
-                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
-                        </div>
-                    </div>
-                    <button href="#" class="btn btn-border" type="submit">Me contacter <span class="glyphicon glyphicon-send"></span></button>
-                </form>
-            </div>
-        </section><!-- /.section-form -->
-
-=======
                 <form id="contact-form">
                     <div class="row">
                         <div class="col-sm-6">
@@ -461,8 +347,6 @@
             </div>
         </section><!-- /.section-form -->
 
-        
->>>>>>> origin/main
     </main><!-- /#main -->
 
     <footer id="colophon" class="site-footer">
