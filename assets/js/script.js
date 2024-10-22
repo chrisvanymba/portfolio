@@ -86,4 +86,34 @@ $(function() {
             }
     });
     
+<<<<<<< HEAD
 });
+=======
+});
+
+// submit the form
+
+//   document
+//     .getElementById("contact-form")
+//     .addEventListener("submit", function (event) {
+//       event.preventDefault();
+
+//       let formData = new FormData(this);
+
+//       fetch("https://www.charlottemba96@gmail.com", {
+//         method: "POST",
+//         body: formData,
+//       })
+//         .then((response) => {
+//           if (response.ok) {
+//             alert("Message envoyer !");
+//           } else {
+//             alert("Erreur d'envoie.");
+//           }
+//         })
+//         .catch((error) => {
+//           console.error("Error:", error);
+//           alert("An error occurred.");
+//         });
+//     });
+>>>>>>> origin/main
